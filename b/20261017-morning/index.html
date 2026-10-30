@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="light dark">
+<title>🌅 모닝 브리프 · 2026.10.17(토) 07:00</title>
+<meta property="og:title" content="🌅 모닝 브리프 · 10/17(토) 07:00">
+<meta property="og:description" content="나스닥 2.15%↓, AI 신용불안·고유가에 기술주 약세">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>:root{
+  --bg:#F2F4F6; --card:#FFFFFF; --text:#191F28; --muted:#6B7684; --line:#E5E8EB; --chip:#F2F4F6;
+  --up:#F04452; --down:#3182F6; --flat:#8B95A1; --accent:#3182F6; --accent-weak:rgba(49,130,246,.10);
+  --shadow:0 1px 2px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#101113; --card:#1B1D22; --text:#E8EAED; --muted:#9AA0A6; --line:#2C2F36; --chip:#24272D;
+    --up:#FF5A66; --down:#4C94FF; --accent:#4C94FF; --accent-weak:rgba(76,148,255,.14); --shadow:none; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:56px}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;
+  font-size:15px;line-height:1.6;letter-spacing:-0.01em;word-break:keep-all;overflow-wrap:anywhere}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:640px;margin:0 auto;padding:0 14px 40px}
+.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.nav .in{max-width:640px;margin:0 auto;display:flex;gap:6px;overflow-x:auto;padding:9px 14px;scrollbar-width:none}
+.nav .in::-webkit-scrollbar{display:none}
+.nav a{flex:0 0 auto;font-size:13px;font-weight:600;color:var(--muted);background:var(--chip);padding:6px 11px;border-radius:999px}
+.hero{padding:22px 4px 14px}
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--accent);
+  background:var(--accent-weak);padding:5px 10px;border-radius:999px}
+.mood{margin-left:6px;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px;background:var(--chip);color:var(--muted)}
+.mood.on{color:var(--up)} .mood.off{color:var(--down)}
+h1{font-size:23px;line-height:1.38;margin:12px 0 6px;letter-spacing:-0.025em;font-weight:800}
+.meta{font-size:13px;color:var(--muted)}
+.card{background:var(--card);border-radius:18px;padding:18px 16px;margin:12px 0;box-shadow:var(--shadow)}
+.card h2{font-size:17px;margin:0 0 12px;letter-spacing:-0.02em;font-weight:800;display:flex;align-items:center;gap:6px}
+.card h3{font-size:15px;margin:16px 0 6px;font-weight:700}
+.tldr ol{margin:0;padding:0;list-style:none;counter-reset:n}
+.tldr li{counter-increment:n;position:relative;padding:0 0 10px 30px;font-size:15.5px;line-height:1.55}
+.tldr li:last-child{padding-bottom:0}
+.tldr li::before{content:counter(n);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:7px;
+  background:var(--accent);color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:520px){.tiles{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.tile{background:var(--chip);border-radius:14px;padding:11px 12px}
+.tile .n{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font-size:17px;font-weight:800;letter-spacing:-0.02em;margin-top:1px;white-space:nowrap}
+.tile .c{font-size:13px;font-weight:700}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+.prose p{margin:0 0 10px} .prose p:last-child{margin:0}
+.chart{margin:4px 0 18px} .chart:last-child{margin-bottom:0}
+.chart .t{font-size:14.5px;font-weight:700;margin-bottom:6px}
+.chart img{width:100%;height:auto;display:block}
+.chart .cap{font-size:12px;color:var(--muted);margin-top:4px}
+.list{margin:0;padding:0;list-style:none}
+.list li{padding:11px 0;border-top:1px solid var(--line)}
+.list li:first-child{border-top:0;padding-top:2px}
+.list .tt{font-weight:700;font-size:14.5px;line-height:1.45}
+.list .sub{font-size:12.5px;color:var(--muted);margin-top:3px}
+.list .why{font-size:13.5px;margin-top:4px}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--muted);margin-right:4px;vertical-align:1px}
+.pill.up{color:var(--up)} .pill.down{color:var(--down)}
+details{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+summary{cursor:pointer;font-size:13.5px;font-weight:700;color:var(--muted);padding:4px 0;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:" ▾"}
+details[open] summary::after{content:" ▴"}
+.watch li{display:flex;gap:10px;align-items:flex-start}
+.watch .tm{flex:0 0 auto;font-size:12.5px;font-weight:800;color:var(--accent);background:var(--accent-weak);border-radius:7px;padding:2px 7px;margin-top:1px}
+.foot{font-size:12px;color:var(--muted);padding:8px 6px 0;line-height:1.6}
+.foot ul{padding-left:16px;margin:6px 0}
+.btn{display:block;text-align:center;font-weight:800;background:var(--accent);color:#fff;border-radius:14px;padding:13px;margin:14px 0 4px}
+.arch li a{display:block;color:var(--text)}
+.arch .d{font-size:12.5px;color:var(--muted)}
+.arch .h{font-weight:700;font-size:15px;line-height:1.45;margin-top:2px}
+.latest{border:2px solid var(--accent)}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a href="#summary">요약</a><a href="#tiles">지표</a><a href="#view">해석</a><a href="#charts">차트</a>
+  <a href="#analyst">애널리스트</a><a href="#news">뉴스</a>
+  <a href="#schedule">일정</a><a href="#watch">체크</a>
+  <a href="../../">지난 브리프</a>
+</div></nav>
+<main class="wrap">
+  <header class="hero">
+    <span class="badge">🌅 모닝 브리프</span>
+    <span class="mood off">위험회피 ↑</span>
+    <h1>나스닥 2.15%↓, AI 신용불안·고유가에 기술주 약세</h1>
+    <div class="meta">2026.10.17(토) 07:00 KST · 미국장 마감 · 국내장 개장 전</div>
+  </header>
+
+  <section class="card tldr" id="summary">
+    <h2>✅ 핵심 요약</h2>
+    <ol><li>AI 투자·부채 우려에 나스닥 -2.15%, 반도체 -3.83%…AMD -5.95%</li><li>WTI $99.04·에너지 +2.52%, 기술 -3.02%…방어주로 무게 이동</li><li>EWY -3.70%, 원/달러 1,334.2원…주말 휴장 뒤 국내 반도체 부담</li><li>주간(5일): 나스닥 -4.48%·반도체 -11.41%, 다우 +0.67%로 차별화</li></ol>
+  </section>
+
+  <section class="card" id="tiles">
+    <h2>📊 주요 지표</h2>
+    <div class="tiles">
+    
+      <div class="tile"><div class="n">S&amp;P 500</div><div class="v">7,659.44</div>
+        <div class="c down">▼1.09%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">나스닥</div><div class="v">26,140.03</div>
+        <div class="c down">▼2.15%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">다우</div><div class="v">52,002.41</div>
+        <div class="c down">▼0.34%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">필라델피아 반도체</div><div class="v">11,137.29</div>
+        <div class="c down">▼3.83%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">VIX</div><div class="v">19.99</div>
+        <div class="c up">▲21.45%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">미국 10년물</div><div class="v">5.098%</div>
+        <div class="c up">▲0.18%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">원/달러</div><div class="v">1,334.2</div>
+        <div class="c down">▼0.50%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">달러인덱스</div><div class="v">101.78</div>
+        <div class="c down">▼0.22%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">WTI</div><div class="v">$99.04</div>
+        <div class="c up">▲1.09%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">금</div><div class="v">$4,187</div>
+        <div class="c up">▲0.40%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">비트코인</div><div class="v">$81,561</div>
+        <div class="c down">▼0.71%</div>
+        
+      </div>
+    
+      <div class="tile"><div class="n">EWY(한국 ETF)</div><div class="v">$150.44</div>
+        <div class="c down">▼3.70%</div>
+        
+      </div>
+    
+    </div>
+  </section>
+
+  <section class="card prose" id="view">
+    <h2>🧭 시장 해석</h2>
+    <p>미국장은 AI 인프라의 부채·수익화 우려와 고유가 부담이 겹치며 하락했다. 나스닥 -2.15%, 반도체 -3.83%인 반면 에너지 +2.52%, 필수소비재 +1.08%로 기술주 회피가 두드러졌다. VIX는 19.99로 뛰었다.</p><p>국내장은 토요일 휴장이다. EWY -3.70%와 마이크론 -5.63%는 다음 거래일 반도체 투자심리에 부담 요인이다. 원/달러 하락은 일부 완충 요인일 수 있으나 미국 AI 신용불안과 주말 중동·우크라이나 뉴스가 더 중요하다.</p>
+    
+      <h3>AI 수요보다 자금조달·수익화에 쏠린 시선</h3>
+      <p>WSJ는 기술주의 신용 우려를, Reuters는 AI 거래와 고유가 부담을 하락 배경으로 전했다. 브로드컴 -4.52%, 마이크론 -5.63%, 오라클 -4.64%로 약세가 확산됐다. 기술주 약세와 에너지·방어주 강세의 조합은 시장 전반의 동반 매도보다는 업종 간 차별화를 보여준다.</p>
+    
+      <h3>국내 지수는 기준일을 구분</h3>
+      <p>네이버 전일 마감은 코스피 5,668.05(+2.05%), 코스닥 794.78(+4.46%)다. Yahoo 국내 지수는 10/15 기준이므로 최신 국내 마감으로 해석하지 않는다. EWY는 미국장에서 거래되는 달러 표시 ETF로, -3.70%를 다음 코스피 등락률로 그대로 대입할 수 없다.</p>
+    
+  </section>
+
+  <section class="card" id="charts">
+    <h2>📈 차트</h2>
+    
+    <figure class="chart" style="margin-left:0;margin-right:0">
+      <div class="t">미국 주요 지수 등락률</div>
+      <picture>
+        <source srcset="img/indices.dark.png" media="(prefers-color-scheme: dark)">
+        <img src="img/indices.light.png" alt="미국 주요 지수 등락률" loading="lazy">
+      </picture>
+      <div class="cap">2026-10-16 미국 정규장 종가 기준 · EWY는 코스피 선행 지표로 참고</div>
+    </figure>
+    
+    <figure class="chart" style="margin-left:0;margin-right:0">
+      <div class="t">미국 빅테크·대형주 히트맵</div>
+      <picture>
+        <source srcset="img/heatmap.dark.png" media="(prefers-color-scheme: dark)">
+        <img src="img/heatmap.light.png" alt="미국 빅테크·대형주 히트맵" loading="lazy">
+      </picture>
+      <div class="cap">타일 크기 = 시가총액, 색 = 등락률 (빨강 상승 · 파랑 하락)</div>
+    </figure>
+    
+    <figure class="chart" style="margin-left:0;margin-right:0">
+      <div class="t">미국 섹터 ETF 등락률</div>
+      <picture>
+        <source srcset="img/sectors.dark.png" media="(prefers-color-scheme: dark)">
+        <img src="img/sectors.light.png" alt="미국 섹터 ETF 등락률" loading="lazy">
+      </picture>
+      <div class="cap">SPDR 섹터 ETF + 반도체(SMH)</div>
+    </figure>
+    
+    <figure class="chart" style="margin-left:0;margin-right:0">
+      <div class="t">금리·환율·원자재 (3개월)</div>
+      <picture>
+        <source srcset="img/macro.dark.png" media="(prefers-color-scheme: dark)">
+        <img src="img/macro.light.png" alt="금리·환율·원자재 (3개월)" loading="lazy">
+      </picture>
+      <div class="cap">우측 상단 = 전일 대비</div>
+    </figure>
+    
+    <figure class="chart" style="margin-left:0;margin-right:0">
+      <div class="t">3개월 추세 비교 (시작=100)</div>
+      <picture>
+        <source srcset="img/trend.dark.png" media="(prefers-color-scheme: dark)">
+        <img src="img/trend.light.png" alt="3개월 추세 비교 (시작=100)" loading="lazy">
+      </picture>
+      <div class="cap">미국 vs 한국 지수 흐름</div>
+    </figure>
+    
+  </section>
+
+  
+  <section class="card" id="analyst">
+    <h2>🏦 애널리스트 · 리서치</h2>
+    
+    <ul class="list">
+      
+      <li><div class="tt">MSFT — StoneX 목표가 $525→$600 상향</div>
+        <div class="why">Buy 유지라는 의견. 목표가 상향에도 당일 주가는 -1.93%로 시장의 기술주 경계감이 우세했다.</div></li>
+      
+      <li><div class="tt">NFLX — BMO 목표가 $135→$125 하향</div>
+        <div class="why">Outperform 유지라는 의견으로 투자의견 강등과는 구별해야 한다. Wedbush도 목표가를 $105→$90로 낮췄다.</div></li>
+      
+      <li><div class="tt">KO — Barclays 목표가 $93→$98 상향</div>
+        <div class="why">Overweight 유지라는 의견. 당일 +2.07%로 필수소비재의 상대적 강세와 맞물렸다.</div></li>
+      
+      <li><div class="tt">TSM — Barclays 목표가 $665→$670 상향</div>
+        <div class="why">Overweight 유지라는 의견. 주가는 -2.28%로 반도체 업종 전반의 약세에서 벗어나지 못했다.</div></li>
+      
+    </ul>
+    
+    
+    <details ><summary>미국 대형주 의견·목표가 변경 13건 (Yahoo)</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><span class="pill down">목표가 하향</span>BAC · Citigroup</div>
+          <div class="sub">Buy · 목표가 $66 → $60 · 10/16 04:04 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>COST · Tigress Financial</div>
+          <div class="sub">Buy · 목표가 $1,065 → $1,250 · 10/16 06:16 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>JNJ · Wells Fargo</div>
+          <div class="sub">Overweight · 목표가 $275 → $287 · 10/17 01:06 KST</div></li>
+      
+        <li><div class="tt"><span class="pill down">목표가 하향</span>JPM · Citigroup</div>
+          <div class="sub">Neutral · 목표가 $360 → $350 · 10/16 04:00 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>KO · Barclays</div>
+          <div class="sub">Overweight · 목표가 $93 → $98 · 10/17 04:17 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>MSFT · StoneX</div>
+          <div class="sub">Buy · 목표가 $525 → $600 · 10/16 22:35 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>MSFT · UBS</div>
+          <div class="sub">Buy · 목표가 $525 → $675 · 10/16 07:00 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>MSFT · Citigroup</div>
+          <div class="sub">Buy · 목표가 $600 → $636 · 10/16 04:49 KST</div></li>
+      
+        <li><div class="tt"><span class="pill down">목표가 하향</span>NFLX · BMO Capital</div>
+          <div class="sub">Outperform · 목표가 $135 → $125 · 10/17 02:35 KST</div></li>
+      
+        <li><div class="tt"><span class="pill down">목표가 하향</span>NFLX · Wedbush</div>
+          <div class="sub">Outperform · 목표가 $105 → $90 · 10/16 21:24 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>TSM · Barclays</div>
+          <div class="sub">Overweight · 목표가 $665 → $670 · 10/17 04:15 KST</div></li>
+      
+        <li><div class="tt"><span class="pill down">목표가 하향</span>UNH · Bernstein</div>
+          <div class="sub">Outperform · 목표가 $512 → $500 · 10/17 02:01 KST</div></li>
+      
+        <li><div class="tt"><span class="pill up">목표가 상향</span>UNH · JP Morgan</div>
+          <div class="sub">Overweight · 목표가 $516 → $524 · 10/17 00:30 KST</div></li>
+      
+      </ul>
+    </details>
+    
+    
+    <details><summary>국내 종목분석 리포트 30건 (네이버 리서치)</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96804" target="_blank" rel="noopener">두산에너빌리티 — 연내 SMR 추가 수주 기대</a></div>
+          <div class="sub">하나증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96803" target="_blank" rel="noopener">대한항공 — [3Q26 Review] 2Q 성과급 미반영분 반영</a></div>
+          <div class="sub">한화투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96802" target="_blank" rel="noopener">코웨이 — 3Q26 Preview : 멈추지 않는 해외법인 성장</a></div>
+          <div class="sub">한화투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96801" target="_blank" rel="noopener">한미약품 — 3Q26 Preveiw: 계약금 이연으로 실적 일시적 휴식</a></div>
+          <div class="sub">교보증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96800" target="_blank" rel="noopener">대한항공 — 3Q26 Re: 인건비에 깜짝 놀랐지만 여전히 견조한 체력</a></div>
+          <div class="sub">하나증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96799" target="_blank" rel="noopener">세나테크놀로지 — 내년도 로봇 매출 실현을 기다리며</a></div>
+          <div class="sub">하나증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96798" target="_blank" rel="noopener">롯데에너지머티리얼즈 — 3Q26 Preview: 전지박 출하 QoQ +40% 전망</a></div>
+          <div class="sub">하나증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96797" target="_blank" rel="noopener">현대건설 — 부진한 플랜트, 만회하는 주택</a></div>
+          <div class="sub">하나증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96796" target="_blank" rel="noopener">SK가스 — 배당성장주의 정석</a></div>
+          <div class="sub">하나증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96795" target="_blank" rel="noopener">대우건설 — 곧 수주가 대거 몰려온다!</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96794" target="_blank" rel="noopener">DL이앤씨 — 플랜트는 아쉽지만, 본업은 여전히 든든하다!</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96793" target="_blank" rel="noopener">GS건설 — 데이터센터 준비 갈 완료</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96792" target="_blank" rel="noopener">삼성E&amp;A — 수주는 이미 초과 달성, 실적도 순항 중</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96791" target="_blank" rel="noopener">에스원 — 화끈한 주주환원과 미래성장 투자</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96790" target="_blank" rel="noopener">대한항공 — 단가 상승이 연료비 증가를 상쇄</a></div>
+          <div class="sub">미래에셋증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96789" target="_blank" rel="noopener">대한항공 — 비용 부담에도 확인된 이익 체력</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96788" target="_blank" rel="noopener">효성 — 눈높이는 낮추고, 배당은 올리고</a></div>
+          <div class="sub">대신증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96787" target="_blank" rel="noopener">레메디 — 탐방 후기: 휴대용 X선에서 AI 영상진단까지</a></div>
+          <div class="sub">유진투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96786" target="_blank" rel="noopener">하이브 — BTS 이후를 증명할 저연차의 성장</a></div>
+          <div class="sub">iM증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96785" target="_blank" rel="noopener">JYP Ent. — 내년에 쏠린 무게중심과 저연차 성장 과제</a></div>
+          <div class="sub">iM증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96784" target="_blank" rel="noopener">유한양행 — 수확의 계절이 다가온다</a></div>
+          <div class="sub">IBK투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96783" target="_blank" rel="noopener">LG유플러스 — 조용함, 그것이 좋은 것</a></div>
+          <div class="sub">유진투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96782" target="_blank" rel="noopener">파두 — 약속의 3분기</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96781" target="_blank" rel="noopener">삼양식품 — 누가 환율 소리를 내었는가</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96780" target="_blank" rel="noopener">대한항공 — 돈을 너무 잘 벌어서 컨센 미스</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96779" target="_blank" rel="noopener">풍산 — 메탈게인 이후의 숙제</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96778" target="_blank" rel="noopener">한국전력 — 혼돈 속 피난처</a></div>
+          <div class="sub">키움증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96777" target="_blank" rel="noopener">알테오젠 — 주사는 짧게, 성장은 길게</a></div>
+          <div class="sub">한국IR협의회 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96776" target="_blank" rel="noopener">대원강업 — 영업레버리지 효과가 본격화되는 구간</a></div>
+          <div class="sub">한국IR협의회 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/company/96775" target="_blank" rel="noopener">피엔티 — 이차전지 전극공정 장비 기업</a></div>
+          <div class="sub">한국IR협의회 · 2026-10-16</div></li>
+      
+      </ul>
+    </details>
+    
+    <details><summary>국내 투자전략 리포트 8건 (네이버 리서치)</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40488" target="_blank" rel="noopener">[QWER] 10월 3주차 - 3분기 실적시즌 스크리닝 전략</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40487" target="_blank" rel="noopener">6,000pt 아래에선 매수 대응 권고</a></div>
+          <div class="sub">한화투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40486" target="_blank" rel="noopener">[AI Insight] KOSPI, 5,600 선에서 멈출 수 있나 - 바닥 점검과 자산배분 대응</a></div>
+          <div class="sub">대신증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40485" target="_blank" rel="noopener">대외 악재에 KOSPI 서킷브레이커, Macro 부담에 반등 난망</a></div>
+          <div class="sub">대신증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40484" target="_blank" rel="noopener">[다음주 시장은?] AI 투자심리 반전을 모색할 빅테크 실적 대기</a></div>
+          <div class="sub">대신증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40483" target="_blank" rel="noopener">Shinhan China Weekly(10월 3주차)</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40482" target="_blank" rel="noopener">[IBKS Market Comment] 11월을 겨냥해 공포를 매수할 시점</a></div>
+          <div class="sub">IBK투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/invest/40481" target="_blank" rel="noopener">[IBKS Daily] Start with IBKS(2026.10.16) 국내 양대증시 공포의 서킷 브레이커</a></div>
+          <div class="sub">IBK투자증권 · 2026-10-16</div></li>
+      
+      </ul>
+    </details>
+    
+    <details><summary>국내 시황정보 리포트 8건 (네이버 리서치)</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37832" target="_blank" rel="noopener">마켓레이더 - AI 투심 회복은 Jensen Huang (10월 16일)</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37831" target="_blank" rel="noopener">[주식시황 위클리] 주간:知 - 유례없는 급락, 투매를 만류하는 이유 (10월 4주)</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37830" target="_blank" rel="noopener">유안타 AI 미국 주식시장 마감 시황 (26.10.16)</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37829" target="_blank" rel="noopener">국내주식 마감 시황 (26.10.15) - 물가-AI 의구심-수급 삼연타, 끝내 서킷브레이커 발동</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37828" target="_blank" rel="noopener">Global Platform Weekly(10월 3주차); 지수와 같이 급락했으나 AI인프라 여전히 선호</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37827" target="_blank" rel="noopener">[DS Defense Daily] 2026-10-16</a></div>
+          <div class="sub">DS투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37826" target="_blank" rel="noopener">Daily Morning Brief(2026.10.16)</a></div>
+          <div class="sub">다올투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/market/37825" target="_blank" rel="noopener">Daily 신한생각 (10월 16일)</a></div>
+          <div class="sub">신한투자증권 · 2026-10-16</div></li>
+      
+      </ul>
+    </details>
+    
+    <details><summary>국내 경제분석 리포트 6건 (네이버 리서치)</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/economy/13922" target="_blank" rel="noopener">[Macro Flash] CPI/PPI/장기채/RMP 이슈 점검</a></div>
+          <div class="sub">유안타증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/economy/13921" target="_blank" rel="noopener">9월 미국 소매판매: 반등보다는 양호하게 유지</a></div>
+          <div class="sub">한화투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/economy/13920" target="_blank" rel="noopener">Market Weekly Check ME up!</a></div>
+          <div class="sub">다올투자증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/economy/13919" target="_blank" rel="noopener">[매크로 COMMENT] 미국 PPI·소매판매: 매출증가보다 무거워진 비용부담</a></div>
+          <div class="sub">SK증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/economy/13918" target="_blank" rel="noopener">10/16, Kiwoom Morning Letter</a></div>
+          <div class="sub">키움증권 · 2026-10-16</div></li>
+      
+        <li><div class="tt"><a href="https://m.stock.naver.com/research/economy/13917" target="_blank" rel="noopener">[Global Markets Monitor] 美 중간선거 투자 전략</a></div>
+          <div class="sub">IBK투자증권 · 2026-10-16</div></li>
+      
+      </ul>
+    </details>
+    
+  </section>
+  
+
+  <section class="card" id="news">
+    <h2>📰 주요 뉴스</h2>
+    
+    <ul class="list">
+      
+      <li><div class="tt"><a href="https://www.wsj.com/finance/investing/u-s-stocks-fall-as-credit-fears-haunt-tech-sector-db50c887?mod=rss_markets_main" target="_blank" rel="noopener">신용 우려가 기술주를 압박하며 미국 증시 하락</a></div>
+        <div class="why">AI 투자 확대를 넘어 부채 상환·자금조달 위험이 쟁점</div>
+        <div class="sub">WSJ Markets</div></li>
+      
+      <li><div class="tt"><a href="https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html" target="_blank" rel="noopener">이란 호르무즈 공격·우크라이나 정유시설 타격 경고에 유가 상승</a></div>
+        <div class="why">원유 공급 차질 우려는 물가와 기업 비용에 부담</div>
+        <div class="sub">CNBC</div></li>
+      
+      <li><div class="tt"><a href="https://www.cnbc.com/2026/10/16/major-earnings-reports-market-fears-next-week.html" target="_blank" rel="noopener">다음 주 주요 실적 대기…호실적만으로 시장 불안 잠재울까</a></div>
+        <div class="why">실적 수치뿐 아니라 투자 지출·현금흐름 설명이 관건</div>
+        <div class="sub">CNBC</div></li>
+      
+    </ul>
+    
+    
+    <details><summary>미국·글로벌 헤드라인 18건</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories" target="_blank" rel="noopener">This Senate race where data centers are a crucial issue has more spending than any other midterm clash</a></div>
+          <div class="sub">MarketWatch · 10/17 06:43</div></li>
+      
+        <li><div class="tt"><a href="https://www.wsj.com/finance/investing/u-s-stocks-fall-as-credit-fears-haunt-tech-sector-db50c887?mod=rss_markets_main" target="_blank" rel="noopener">U.S. Stocks Fall as Credit Fears Haunt Tech Sector</a></div>
+          <div class="sub">WSJ Markets · 10/17 06:39</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories" target="_blank" rel="noopener">Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.</a></div>
+          <div class="sub">MarketWatch · 10/17 06:35</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories" target="_blank" rel="noopener">The bond market shrugged off two inflation shocks. Why stock investors should pay attention.</a></div>
+          <div class="sub">MarketWatch · 10/17 06:30</div></li>
+      
+        <li><div class="tt"><a href="https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html" target="_blank" rel="noopener">Katie Zacharia out as Trump&#39;s White House press secretary</a></div>
+          <div class="sub">CNBC · 10/17 06:26</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories" target="_blank" rel="noopener">New SEC rules would fleece everyday investors to enrich Wall Street</a></div>
+          <div class="sub">MarketWatch · 10/17 06:21</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories" target="_blank" rel="noopener">I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?</a></div>
+          <div class="sub">MarketWatch · 10/17 06:15</div></li>
+      
+        <li><div class="tt"><a href="https://www.wsj.com/business/auto-transport-roundup-market-talk-a9b213cd?mod=rss_markets_main" target="_blank" rel="noopener">Auto &amp; Transport Roundup: Market Talk</a></div>
+          <div class="sub">WSJ Markets · 10/17 06:13</div></li>
+      
+        <li><div class="tt"><a href="https://www.wsj.com/business/financial-services-roundup-market-talk-b4026e6d?mod=rss_markets_main" target="_blank" rel="noopener">Financial Services Roundup: Market Talk</a></div>
+          <div class="sub">WSJ Markets · 10/17 06:02</div></li>
+      
+        <li><div class="tt"><a href="https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-aa749b35?mod=rss_markets_main" target="_blank" rel="noopener">Tech, Media &amp; Telecom Roundup: Market Talk</a></div>
+          <div class="sub">WSJ Markets · 10/17 05:59</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories" target="_blank" rel="noopener">Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks</a></div>
+          <div class="sub">MarketWatch · 10/17 05:58</div></li>
+      
+        <li><div class="tt"><a href="https://www.cnbc.com/2026/10/16/major-earnings-reports-market-fears-next-week.html" target="_blank" rel="noopener">Major earnings reports are due next week, but strong results may not be enough to quell market fears</a></div>
+          <div class="sub">CNBC · 10/17 05:50</div></li>
+      
+        <li><div class="tt"><a href="https://www.wsj.com/finance/stocks/a-volatile-week-ends-with-tech-stocks-down-oil-up-5f286ce3?mod=rss_markets_main" target="_blank" rel="noopener">A Volatile Week Ends with Tech Stocks Down, Oil Up</a></div>
+          <div class="sub">WSJ Markets · 10/17 05:35</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNV0xEdzRIMVNLYnAyTkhHSmVNTnRyMDJ3WGdOeFY0Vy1kRUtmWC1FZW42aDNfWTctUHM5X2hlWkhuOHFwblR1Q054a19YV3ZLNTlVVVlmMlRTZ0wxLWE2cmN3SWpjVHU4VDJZWU12Q0hPajE5cDdvQm9ic05PNHNRVG45bEI1ZFVHaEN5QnZjbHMxUDFVbHZ2cFNlMUZydw?oc=5" target="_blank" rel="noopener">Wall Street ends down sharply, worries about AI trade and high oil prices weigh</a></div>
+          <div class="sub">Reuters · 10/17 05:33</div></li>
+      
+        <li><div class="tt"><a href="https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html" target="_blank" rel="noopener">Trump says White House didn&#39;t order Starlink restrictions in Ukraine</a></div>
+          <div class="sub">CNBC · 10/17 05:28</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d?mod=mw_rss_topstories" target="_blank" rel="noopener">EchoStar’s stock looks like a stealthy way to ride the SpaceX wave, J.P. Morgan says</a></div>
+          <div class="sub">MarketWatch · 10/17 05:05</div></li>
+      
+        <li><div class="tt"><a href="https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html" target="_blank" rel="noopener">Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries</a></div>
+          <div class="sub">CNBC · 10/17 05:02</div></li>
+      
+        <li><div class="tt"><a href="https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336?mod=mw_rss_topstories" target="_blank" rel="noopener">Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.</a></div>
+          <div class="sub">MarketWatch · 10/17 04:46</div></li>
+      
+      </ul>
+    </details>
+    
+    <details><summary>국내 헤드라인 18건</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://www.mk.co.kr/news/stock/12178352" target="_blank" rel="noopener">“같은 날 100만원 넣었는데”…국장·미장·금, 지금 얼마 됐을까</a></div>
+          <div class="sub">매일경제 · 10/17 06:47</div></li>
+      
+        <li><div class="tt"><a href="https://www.yna.co.kr/view/AKR20261016155700003" target="_blank" rel="noopener">국내 기름값 22주 연속 하락…휘발유·경유 1천800원대 지속</a></div>
+          <div class="sub">연합뉴스 · 10/17 06:05</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5oU05qb0JPa191NkxVVzZwLThUVzJtT05GaVJtbG5lVjNvWThibTZfUnBCNjc4VmJaejU4NkFrcjJ2NDF0VS1SNGJSV09zMTJCUmx2R3F5bk55ekF1NXBsT09oVUdIOTh0bnc?oc=5" target="_blank" rel="noopener">美 뉴욕 증시의 주요 지수가 일제히 하락</a></div>
+          <div class="sub">전파신문 · 10/17 06:04</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1ycjZvbjJLLTJZLVdHc0k4MFJVNml0UjJjb1pkWlZkZndtcGZhUDUxWTJmeFlNcTAtb0pfbEdNUDNSLWFZc1VrZmhjOUJvZm9jei1DQ0lvRzNwNFRsajJzczFLMnU2RHBvOU9oOWZmWE4?oc=5" target="_blank" rel="noopener">[뉴욕증시] 필리 지수, 20년래 최장 하락세…기술주 급락</a></div>
+          <div class="sub">연합인포맥스 · 10/17 06:02</div></li>
+      
+        <li><div class="tt"><a href="https://www.yna.co.kr/view/AKR20261016090400530" target="_blank" rel="noopener">클릭해 예약한 컬러렌즈…안전과 편의 사이 멈춰 선 혁신</a></div>
+          <div class="sub">연합뉴스 · 10/17 06:00</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZV3dDYVNudVpxR1FKM2ZZblNWQXdZZEtaRk5NdmpWMVV2UjNPbWl3ZUY0SGdOZEU1QXFZMzNHamdnSlpPWGc5d0RMdkZwbUpo?oc=5" target="_blank" rel="noopener">뉴욕증시, 하락세로 마감…나스닥 2.15%↓</a></div>
+          <div class="sub">블루밍비트 · 10/17 05:57</div></li>
+      
+        <li><div class="tt"><a href="https://www.yna.co.kr/view/AKR20261016169500002" target="_blank" rel="noopener">코스피 꺾이자…해외 코인거래소 &#39;큰손&#39; 90% 이상 반등 베팅</a></div>
+          <div class="sub">연합뉴스 · 10/17 05:55</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wTjFuZEJyZU1DOW5tMXVrLUxtTTN0SVkzaHdLXzJ5TnY0VWNIcHlVUVAtZ3JBMVlyc1N2M1M1VmtzSXpIUzJBa1dtX3ZIbkpqNVd3c3ZFck1vdTR2Mmp5M9IBeEFVX3lxTE1vSW9VZnVObDJBYVFlNlVOT1c1NFlfMFBwd1gtU3MyYlA1dTVOM3h4OWJNblpEOWl6YnRNazFKZ3NKX0l1Mzd3VFAxY25uV09VWUZhX0J1Rk5XeU5Cb0tTUDFldWRxREw3V3lIZXVYUHVrU0FtcS1XTA?oc=5" target="_blank" rel="noopener">뉴욕증시, AI 매도세·유가 상승에 하락 마감…나스닥, 2.1%↓</a></div>
+          <div class="sub">뉴시스 · 10/17 05:50</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE02WVhIUnQtUVhQNV8xWlJnUmtGVDdCYVh5TDYwSklPNTRDYnlCaE1NTkV0YzZVUWZZOVNLN3BsZXJfS2FxUTBsRXBLUDlCNHBLeUFSUmc3RzR4UQ?oc=5" target="_blank" rel="noopener">[뉴욕증시] 반도체 급락 속 일제히 하락…&#39;속슬&#39; 12.7% 폭락</a></div>
+          <div class="sub">파이낸셜뉴스 · 10/17 05:44</div></li>
+      
+        <li><div class="tt"><a href="https://www.mk.co.kr/news/stock/12177919" target="_blank" rel="noopener">‘300달러 황제주’서 99% 추락 … 깡통 찰 뻔하다 ‘맥주 캔’으로 부활한 회사</a></div>
+          <div class="sub">매일경제 · 10/17 05:30</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQldNZ1lPbURfb2V0NXFiUVFqcDBtUHJxQllBNnVIWXA0cVVsUktMZUZWeHVHVjJyMEJiX1NYUUhocUdYVUE0UXBqZDFQeGNZSm9DY1VySEhPSlRhREZrWnlRRkRONGdwVXVQXzRQWFRWUFRSZjFBVGU5MWs3TXZtQlNlc3d2T0Ix?oc=5" target="_blank" rel="noopener">[뉴욕증시] AI 거품론·유가 폭등 &#39;쌍악재&#39;에 나스닥 572P &#39;와르르&#39;</a></div>
+          <div class="sub">글로벌이코노믹 · 10/17 05:29</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIX0I0ZWpIdlNCQklqbzhFdFI2OHU0dy1FbFI4MkJ6MDVoZmhGcWVmQ2xMVVdoeEVmaXJXMGJnOWdPYmcyVXk5TURNMWZEbkNGLTBVeEQ5Yzl5MTVuX0E?oc=5" target="_blank" rel="noopener">폭락장에 반대매매 속출...완충재 없는 코스피</a></div>
+          <div class="sub">YTN · 10/17 05:28</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE03RDM3WFM1M3hncTdvUFFBMnVYbjlQeG93cmNsaUM4RWk1aEhycFVqNUl3WUY4d0ZESTdhQnhvd2VoZ2FkOTQ4UXBKSmhOeEtnaU5QbGJoOXdJRl9T?oc=5" target="_blank" rel="noopener">뉴욕증시, AI 부채 우려에 하락 마감…나스닥 7월 이후 최대 낙폭</a></div>
+          <div class="sub">뉴스핌 · 10/17 05:17</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZMW9acE12eWRsYVlIcnJyRnM5NWRPQWk0ajYwX0o3SWtiYTFRc0lDWklsb3ctSzEtaDdUTG5NT0xHOHpPMV90dG5RYnZpM1VDZkp1bXphOUpXcTV0NHFoVHY4NE9TYW5kcXI5M2xUVFfSAXRBVV95cUxPbE0wb3FqOWJRSk5JbTY1R2hVVDloLVpjREQ2cW5weVpBS1c2T0xXeEM2ZlpIcXBNZDRJbjhvWWh3RjhmMVcyaVdkVGJnekV5Q3M1aGVBMmg3Wm5aNm5LcFBqNS1NQ1JsMDloRkpaRUpOblRXZg?oc=5" target="_blank" rel="noopener">[뉴욕증시-1보] 기술주 본격 하강 국면 진입하나…나스닥 2.1%↓</a></div>
+          <div class="sub">연합인포맥스 · 10/17 05:14</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE0waUthc2lQamF3LWNsNjNPU1ROZ3BocHFwZGpJU1UxajktR0ZpNWZKWkhqMkJrNDBXYlpHUEZ0ZEZQWmx3WVRKWjlQOFJ4ZXRwR3h3UlpkdGI1dTQ3Sm1FZtIBeEFVX3lxTE14UFhpZXItTFNIdUdHeG91OC0zNkRvRnU5a05TRkw3YjdkQjdpbUxNOVZZUW1rWUNlT2tyNTNDYUFic3dnQjRsUFNUcVE0VlVROTVDbFh0WGpHWm41cTFrY2tla2ppZ2pEVER5ZlI1LW1ZRXUzZlUtLQ?oc=5" target="_blank" rel="noopener">[속보] 뉴욕증시, AI 매도세 심화에 하락 마감…나스닥 2.1%↓</a></div>
+          <div class="sub">뉴시스 · 10/17 05:06</div></li>
+      
+        <li><div class="tt"><a href="https://www.yna.co.kr/view/AKR20261017004900072" target="_blank" rel="noopener">중동도 우크라도 불안…브렌트유 109달러대, 5개월만에 최고</a></div>
+          <div class="sub">연합뉴스 · 10/17 05:04</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aLVZNZC1qZ0tWTTVxZzNoOHhRTTROMjlhMzJqb3JCUXFFUmplV3VBdTRSUGozelVxNWZIMTNNd1hsaERMVVllbkZCZGtOem1f?oc=5" target="_blank" rel="noopener">블룸버그 인텔리전스 전략가 &#34;비트코인, 1만달러까지 하락 가능&#34;</a></div>
+          <div class="sub">블루밍비트 · 10/17 04:45</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Da3Y0U1FPWXd4RkkyNnl5d2lqQ3huY1JfM0plV3ozX3c2QnJ5Z2tleldRX1JNNXl6MEdIZEtvVGkzMW4xZzFrTmlrZV9OUnFU?oc=5" target="_blank" rel="noopener">미국 증시 변동성지수, 4개월여 만에 최고…21.41 기록</a></div>
+          <div class="sub">블루밍비트 · 10/17 02:19</div></li>
+      
+      </ul>
+    </details>
+    
+    <details><summary>애널리스트 관련 헤드라인 12건</summary>
+      <ul class="list">
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQalpyT0V2R2Q1eTZvbXFUcHJUQ3I4bnlkRWxCZDAzSGlJTllvZDFaaFdKV3dlaTlGSmpHeWlRQnVZVzNzQnh5T3M5TzBrSUtvWUpZclR6U0F6UFVvLWstM0l2VFl2SVlkbHd3Uk1Za09WQkt4VWR5Z09UcUxCYXNoYzAwMFRQWWV6WVlxOVVINEJZcjEya0ZJTTJLUzI3U3VmbUppRzNUNmdJemlwalI4?oc=5" target="_blank" rel="noopener">Vertiv (NYSE:VRT) Stock Falls 4% on Analyst Downgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:07</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPWDNGcFVteVo4M3BOZ3N5aHREMkp6cTl2TDdFU29DUXJhNWdHLWptRHRveDZQMF9xamJaM3YtZ2ZQdTEwT3ZseTA0Mmg1WjB3WGlRWEhJWmp6NW5EaGotZEViUjJuQ0cxdDN0bXB6eVFEckJsVVotdE84aFlkVVVfM05xajU0b0tUc2JoTVVEbzY2NEJ3UlhxTGZMVWcyVkFNTXdIUm04RzRDZkNHZjJKZkZPN2F1Sk16aEZIeDB4dWFTMmZGWjRZ?oc=5" target="_blank" rel="noopener">Costco Wholesale (NASDAQ:COST) Stock Price Up 1.1% After Analyst Upgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:07</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHdTWVhYZUhWX1J6ZTd6eWMzRmJhaWQtTWNEaEZEOXRfNDBOT21fakJvNXJVS1RfcnVoNkhGZlI5Zjl5WEF5U1VEUURzdFF3VHV5Sk1XWW1IdWcycjJGM3Q2WmFEUDFqdEp1MWc1RFdjV3h6Y0g0c0tMTHNtSm1SbG5WWEFaczNCdHRaQkdxU2lJaGZuak9yOXE5LU1veDZWd0p3cmV5Tm9MUjNNdjJSUU9zVlI3VF9M?oc=5" target="_blank" rel="noopener">ExxonMobil (NYSE:XOM) Shares Climb 2.5% After Analyst Upgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:07</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMnlhUGZobV9LVDFmckFLYXl6eEFUYkdRSkt3U043Z1p2U2U4OGZoRXRLOXVGdjZ4a0NOSUIwenFfQlIxSEFXaXdZWTdWSTY2cHE1YUJuRjc4RWt4VkZUdmFvYWt5Nk9MWWJMNEljcEFReHFsMHFIVnJUdkVVYVF0RVNVX1AxQjlMLXZaMUY1Y1RMUTBkRVp1cDJtUDF3TFJLSWlSZFJZbzNjUnJndXlIRE5GT19fNjhhenA0VlF1VHV0MnBzMVRGMDJLcTEtOTFWeUlOcQ?oc=5" target="_blank" rel="noopener">Applied Optoelectronics (NASDAQ:AAOI) Shares Down 9.7% Following Analyst Downgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:07</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdUF2RDMwZkJ6WUVsRUJxRkxxam5vQ185RVlpWGhtUjZvU3VlMV9jbWNhdUtic0t0UktPSUpjZVF4ZjN3cWhfRDFsY1NacV9ub19wbFNoZDdtYnNQNTQyNDV1QmJodkh3ck1XU1N5UmJ1VmlhX0tKd1F0cXYxX3k5RkcwRWd5b3ZEQjVtZm8teHhOOU5TWEF5ZEwtRk9sSklmV052UDRPdmpnMUxaRXRubVZtY3owbUJxT2M5RHdCa0ZQS3M?oc=5" target="_blank" rel="noopener">Rocket Lab (NASDAQ:RKLB) Stock Price Down 8% After Analyst Downgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:07</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPLXZXTUlXazJIUUUxYnRnTkdUcGtBM2pDOEpPeEdnVEJJOGxYT2dTMmV3dDU0bFlsSkRuT1p1S3paMFpzeDZDSHgydndHR0hBTmk3QThtSFJXX1hFN2s0VTdRdnJfYllYR2hKMHF2ZG5kS0RoTmlhb29IenJuQ3NuY095VmhmVGRSTG9kQ1hhYVRrY1FEeUxxME0wcFhVUHVCV3ZGVkRISTJLdmEwSTZRVGZ4NXpYbXp1TUdrSg?oc=5" target="_blank" rel="noopener">Netflix (NASDAQ:NFLX) Stock Price Down 2.9% on Analyst Downgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:07</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxOaDBaOHdfWG0zLU5RcXYyQk9iZXM4VnF4Tm81cllhSlpYUFdId29DUFE4U2d1WVpreG1kdFhlalFIV1hhSjZGcEZzSlhBMU81ekVYV09majJma3R5LVd0RjNEVDFwNkFXbFhaeklpTmdoWHl2dTFSSEE5SE9fOHR3aFN4aEpaMUhIYTN4SjhGbkRYWVI0cXJoSTlaVWtmOUlGbHZfWGFaXzNYSmxwYjh1SnB4azBQc0l0Z0RZd2V0UHdkVUU4M2c?oc=5" target="_blank" rel="noopener">Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade</a></div>
+          <div class="sub">MarketBeat · 10/17 06:06</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaXJKR2xhLW92SERkeUZXaEtuRkhLTVU4cnZaZk5CcmRpVVF4cGlZZm42N1VjOHdpQXdhYVhfeDVITlN6UF92dnFUeGh4bDRaOFhKdlpPaUpvZjNKUmw3QzJOME1rMEt5Vzd1TjVmbmo1Sk9QOXZqZXpSMkRMYVRSMlUtVGpmMHNHOEdqdWhkaWFob2RzZGtQMmZmMHBKYUY2NmdIRE9ILS1PWDlsQ3pyOFRNRXRFbVA2c0YxU29fOUdicUJjYjkybHZ2elNjT1g2aTFfN2RKZVI?oc=5" target="_blank" rel="noopener">MiniMed Group, Inc. Stock 12‑Month Price Target Raised to $25.87, Implies 44% Upside</a></div>
+          <div class="sub">TradingView · 10/17 04:20</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxNLU1zM2lCamladFRIMGNqSWQ1aFVrVnhJTTVla1JUdTRnU0hFQzQ4dUZ1M0pjQTF0QVNGSXI2NWFnYVZlRERreGwtR1BQcHFwUWlFcW1VU1FLY3YwVHh0Y2VJS3pULXFaX3gyTV91WXRnbEo5cnhmUG9LLS0tQ2E5b0hkbGFQVmhHMG5ZSER1TkZOTWsxRmU1dTFNLTNTQ0xLTTN1VnNnc3hacWtVYkZxX1JGd2puSWgxTlRGclhOOEJfWHRETm5VOWNHOUtiS3ZGQXU4S0kyQVlscDRRUkhvdWFrV0o?oc=5" target="_blank" rel="noopener">Annaly Capital Management Inc. Stock 12‑Month Price Target Cut to $22.64, Implies 23% Upside</a></div>
+          <div class="sub">TradingView · 10/17 04:20</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcUwwQ2Q5aGJoWU13ekRacmZROGtkOFR2RXNrSzNrcDNzZmpoWmdfb0pVTjB2ZE5yakFTQ3o2ZkctT3owRjRsWWh4eWZLMlBRNWUtRHlYNG5uWkw2ZGlHanVoREZsdVQ0RFJNRTFSMTZOdklEOGV4alVkVGI1cDhDWW5IV01kRWtheW51NkJLZDNoQ0g2TzE5SGJpZkcydXhfWncyUXBDVmVoaHlfNGpFYkNMbnBRWmhzeGVPT0U1WjIwcVpDTnM5TTJhR0hKaGJBWDNacDd6MlE?oc=5" target="_blank" rel="noopener">AGNC Investment Corp. Stock 12‑Month Price Target Cut to $10.06, Implies 14% Upside</a></div>
+          <div class="sub">TradingView · 10/17 04:20</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTmkxcWNQWWc2NVR0c21RWVFyWTEweW1zQTE1UWdoMU02NFlVVVNLQ0ZKcjQ4b2NHZUx4ZTNraGZIX29zYzhFUlFrS3JOSWhUVGZWdnBtRmNIZ3VCV214MGY2WnVfODl0bUdIdVdaYmZRa2xMcG9ac3poUG1Xb0VCWm14clB3cmg5MEx0TEZhX0dzelhzQzBVSGU5VXNRd2k0cS10THhLRHIwMklMVmx5bXpYVkJKSjNzd3ZsZXRPVmtzQUZpU3UyTl9qRGhvZFh6d3VRYg?oc=5" target="_blank" rel="noopener">Joby Aviation, Inc. Stock 12‑Month Price Target Cut to $9.81, Implies 104% Upside</a></div>
+          <div class="sub">TradingView · 10/17 01:20</div></li>
+      
+        <li><div class="tt"><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHdYYTJYTDRWd2JtLXpXc2VPb0hNdjhBc3NHa0RPdXU1cXdPbEZWbkpBN0dnby1iM0wwRU16dUlfbjd3czM1ejZGamFBYkV2aG5waXE0UUVzRGVoNE5tWkdsNmQtQl9FVE9rMkZtNjM2d3piMmZNbkRyamhESHcyOGcxLTdaQXRKbGNOUDVhYV9ZUTlFSC00eV9uSWQyaVk1akxhc1pDTmU?oc=5" target="_blank" rel="noopener">Is Analyst Upgrade Altering The Investment Case For Crocs Stock?</a></div>
+          <div class="sub">Yahoo Finance · 10/17 01:16</div></li>
+      
+      </ul>
+    </details>
+    
+  </section>
+
+  
+  <section class="card" id="schedule">
+    <h2>🗓️ 일정</h2>
+    
+    
+    <h3>어젯밤 장 마감 후 실적 (미국)</h3>
+    <ul class="list">
+      
+      <li><div class="tt">HDB <span style="font-weight:500">HDFC Bank Limited</span></div>
+        <div class="sub"><span class="pill">시간미정</span>시총 $120.7B · EPS 예상 $0.40 · <span class="down">시간외 ▼0.00%</span></div></li>
+      
+      <li><div class="tt">IBN <span style="font-weight:500">ICICI Bank Limited</span></div>
+        <div class="sub"><span class="pill">시간미정</span>시총 $105.4B · EPS 예상 $0.40 · <span class="up">시간외 ▲0.00%</span></div></li>
+      
+    </ul>
+    
+    <h3>다음 미국 세션 실적 예정</h3>
+    <ul class="list">
+      
+      <li><div class="tt">FITB <span style="font-weight:500">Fifth Third Bancorp</span></div>
+        <div class="sub"><span class="pill">장전</span>시총 $45.7B · EPS 예상 $1.09</div></li>
+      
+      <li><div class="tt">STLD <span style="font-weight:500">Steel Dynamics, Inc.</span></div>
+        <div class="sub"><span class="pill">장후</span>시총 $34.5B · EPS 예상 $5.42</div></li>
+      
+      <li><div class="tt">WRB <span style="font-weight:500">W.R. Berkley Corporation</span></div>
+        <div class="sub"><span class="pill">장후</span>시총 $27.5B · EPS 예상 $1.14</div></li>
+      
+    </ul>
+    
+  </section>
+  
+
+  
+  <section class="card" id="watch">
+    <h2>👀 체크포인트</h2>
+    <ul class="list watch">
+      <li><span class="tm">주말</span><div>호르무즈·러시아 정유시설 관련 뉴스와 유가 추가 상승 여부</div></li><li><span class="tm">10/19</span><div>국내장 재개 시 EWY -3.70%·미국 반도체 약세의 반영 정도</div></li><li><span class="tm">10/19 밤</span><div>미국 장전 FITB 실적 예정, EPS 예상 $1.09</div></li>
+    </ul>
+  </section>
+  
+
+  <a class="btn" href="../../">📚 지난 브리프 모아보기</a>
+
+  <footer class="foot">
+    본 페이지는 AI가 공개 데이터(Yahoo Finance, 네이버페이 증권, ForexFactory, Nasdaq, 각 언론 RSS)를 자동 수집·요약한 참고 자료이며 투자 권유가 아닙니다. 시세는 지연·오류가 있을 수 있으니 매매 전 원문과 시세를 확인하세요.
+    
+    <div style="margin-top:8px">생성 2026.10.17(토) 07:00 KST · run 20261017-morning</div>
+  </footer>
+</main>
+</body>
+</html>
